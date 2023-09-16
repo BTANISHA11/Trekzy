@@ -31,7 +31,7 @@ const Footer = () => (
           </span>
         </button>
       </div>
-{/* // extra one  */}
+{/* // extra one 
 <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
       <div className="flex-1 flex flex-col justify-start mr-10">
         <img
@@ -72,7 +72,22 @@ const Footer = () => (
           </ul>
         </div>
       </div>
-    </div>
+    </div> */}
+    
+     <div className="com-box">
+        <div className="com-part">Be a part of our awesome Community!</div>
+        <div className="com-btn">
+          <a href="https://twitter.com/EventifyX" target="_blank" rel="noopener noreferrer" className="com-btn-a">
+            Twitter
+          </a>
+          <a href="#0" target="_blank" rel="noopener noreferrer" className="com-btn-a">
+            Discord
+          </a>
+        </div>
+      </div>
+
+     
+     
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
